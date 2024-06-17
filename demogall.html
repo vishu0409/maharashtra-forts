@@ -1,0 +1,460 @@
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<title>
+</title>
+<style>
+.abcd
+{
+padding:10px 10px 10px 10px;
+border:thin solid grey;
+border-radius:10px;
+display:inline-block;
+background:yellow;
+width:100px;
+text-align:center;
+box-shadow: 8px 8px 8px black;
+background: linear-gradient(to bottom, #66ffff 0%, #ffffcc 100%);
+}
+.y
+{
+  background: linear-gradient(to bottom, #ffffff 0%, #cc9900 100%);
+}
+.z
+{
+   background: linear-gradient(to bottom, #669999 0%, #ccffff 100%);
+}
+.g
+{
+background: linear-gradient(to bottom, #ffffff 0%, #cc9900 100%);
+}
+.c
+{
+  background-image: linear-gradient(#ffd89b, #19547b );
+}
+.image img:hover
+{
+transform: scale(1.2);
+}
+li.menubar1
+{
+	padding:10px 10px;
+	border:2px solid #ff3300;
+	display:inline-block;
+	background:brown;
+	width:100px;
+	text-align:center;
+	font-size:20px;
+border-top-left-radius:25px;
+border-bottom-right-radius:25px;
+                  
+}
+li.menubar
+{
+	padding:10px 5px;
+	border:2px solid #ff3300;
+	display:inline-block;
+	background:brown;
+	width:100px;
+	text-align:center;
+	font-size:20px;
+border-top-right-radius:25px;
+border-bottom-left-radius:25px;
+                  
+}
+#menu
+{
+position:relative;
+right:40px;
+}
+li.menubar a{
+text-decoration:none;
+color:white;
+}
+li.menubar1 a{
+text-decoration:none;
+color:white;
+}
+
+// body {
+  font-family: Verdana, sans-serif;
+  margin:0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 0px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width:300px;
+height:190px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #ffffff;
+  margin: auto;
+  padding:0;
+  width: 90%;
+max-width: 900px;
+
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: 50;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right:0;
+  border-radius: 3px 0 0 3px;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absult;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+margin-right:10px;
+
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.spp{
+  height:190px;
+  width:300px;
+
+  border-radius: 20px;
+  
+}
+
+</style>
+</head>
+<body>
+<table height="1150px" width="900px" border="8px" align="center" bgcolor="orange">
+<tr>
+<td colspan="3" height="150px" width="100%" bgcolor="white">
+<center>
+<img src="images/sohala.png" height="150px" width="100%" style="border-radius:10px;">
+</center>
+</td>
+</tr>
+<tr>
+<td colspan="3" height="30px" width="900" class="z">
+<font size="6" color="red">
+||  JAY BHAVANI  ||  JAY SHIVAJI   ||
+</font>
+</td>
+</tr>
+<tr>
+<td colspan="3"height="30px" width="900" class="y"><center>
+<ul style= "border-style:none; list-style-type:none; width:100%;" id="menu">
+<li class="menubar1" style="margin-top:20px;"><a href="hindu dharm.html"><b>Home</b></a></li>
+<li class="menubar1" style="margin-top:20px;"><a href="about.html"><b>About</b></a></li>
+<li class="menubar1" style="margin-top:20px;"><a href="fort.html"><b>Fort</b></a></li>
+<li class="menubar1" style="margin-top:20px;"><a href="gallery.html"><b>Gallery</b></a></li>
+<li class="menubar" style="margin-top:20px;"><a href="map.html"><b>Map</b></a></li>
+<li class="menubar" style="margin-top:20px;"><a href="powada.html"><b>Powada</b></a></li>
+<li class="menubar" style="margin-top:20px;"><a href="contact.html"><b>Contact</b></a></li>
+<li class="menubar" style="margin-top:20px;"><a href="feedback.html"><b>Feedback</b></a></li>
+</ul></center>
+</td>
+</tr>
+<tr>
+<td colspan="3" height="70px" width="900"class="z"><center><img src="images/raigadh.png" height="70px" width="350"></center></td>
+</tr>
+<tr>
+<td colspan="3" height="10px" width="900px" bgcolor="grey"><b><font color="white">
+<a href="raigad.html"><p class="abcd" style="margin-left:230px;">BACK</p></a>
+<a href="mapraigad.html"><p class="abcd" style="margin-left:200px;">MAP</p></a></b></font></td>
+</tr>
+<tr bgcolor="black" class="image">
+<td>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="row ">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad1.jpg" height="190px" width="300px"  style="border-radius:10px;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor spp">
+  </div></td>
+<td height="190px" width="300px">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad2.jpg" height="190px" width="300px"  style="border-radius:10px;"  onclick="openModal();currentSlide(2)" class="hover-shadow cursor spp">
+  </div></td>
+<td height="190px" width="300px">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad3.jpg" height="190px" width="300px"  style="border-radius:10px;" onclick="openModal();currentSlide(3)" class="hover-shadow cursor spp">
+  </div></td>
+</tr>
+<tr bgcolor="black" class="image">
+  <div class="row" >
+<td height="190px" width="300px">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad4.jpg" height="190px" width="300px"  style="border-radius:10px;"  onclick="openModal();currentSlide(4)" class="hover-shadow cursor spp">
+  </div></td>
+<td height="190px" width="300px">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad5.jpg" height="190px" width="300px"  style="border-radius:10px;"  onclick="openModal();currentSlide(5)" class="hover-shadow cursor spp">
+  </div></td>
+<td height="190px" width="300px">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad6.jpg" height="190px" width="300px"  style="border-radius:10px;"  onclick="openModal();currentSlide(6)" class="hover-shadow cursor spp">
+  </div></td>
+</tr>
+<tr bgcolor="black" class="image">
+
+<td height="190px" width="300px">
+  <div class="row " >
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad7.jpg" height="190px" width="300px"  style="border-radius:10px;"  onclick="openModal();currentSlide(7)" class="hover-shadow cursor spp">
+  </div></td>
+<td height="190px" width="300px">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad8.jpg" height="190px" width="300px"  style="border-radius:10px;"  onclick="openModal();currentSlide(8)" class="hover-shadow cursor spp">
+  </div></td>
+<td height="190px" width="300px">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad9.jpg" height="190px" width="300px"  style="border-radius:10px;"  onclick="openModal();currentSlide(9)" class="hover-shadow cursor spp">
+  </div></td>
+</tr>
+<tr bgcolor="black" class="image">
+
+  <div class="row " >
+<td height="190px" width="300px">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad10.jpg" height="190px" width="300px"  style="border-radius:10px;"  onclick="openModal();currentSlide(10)" class="hover-shadow cursor spp">
+  </div></td>
+<td height="190px" width="300px">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad11.jpg" height="190px" width="300px"  style="border-radius:10px;"  onclick="openModal();currentSlide(11)" class="hover-shadow cursor spp">
+  </div></td>
+<td height="190px" width="300px">
+  <div class="column" style="margin-left: 0px;margin-top: 0 0px; ">
+    <img src="images/raigad12.jpg" height="190px" width="300px"  style="border-radius:10px;"  onclick="openModal();currentSlide(12)" class="hover-shadow cursor spp">
+  </div></td>
+<tr bgcolor="black" class="image">
+  
+
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 12</div>
+      <img src="images/raigad1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 12</div>
+      <img src="images/raigad2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 12</div>
+      <img src="images/raigad3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 12</div>
+      <img src="images/raigad4.jpg" style="width:100%">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">5 /12</div>
+      <img src="images/raigad5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 12</div>
+      <img src="images/raigad6.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 12</div>
+      <img src="images/raigad7.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">8 / 12</div>
+      <img src="images/raigad8.jpg" style="width:100%">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">9 / 12</div>
+      <img src="images/raigad9.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">10 / 12</div>
+      <img src="images/raigad10.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">11 / 12</div>
+      <img src="images/raigad11.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">12 / 12</div>
+      <img src="images/raigad12.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</td>
+</tr>   
+
+<tr>
+<td colspan="3" height="20px" width="900" class="c"><center><b><font color="yellow"><marquee behavior="alternate" direction="right">Developed by : Vishwajeet Jaysing Dubal (8975232173)</font></center></b>
+</td>
+</tr>
+
+</table>
+</body>
+</html>
